@@ -1,9 +1,35 @@
 body{
     margin: 0; 
+    font-family: Helvetica, Arial, sans-serif;
 }
 header{
     background-color: dodgerblue;
+    color: white;
 }
 header>h1{
     margin-top: 0;
+}
+header>nav>ul>li>a{
+    color: white;
+}
+#no_list {
+    list-style: none;
+}
+.no_padding{
+    padding-left: 0;
+}
+
+.customIndent {
+    padding-left: 10em;
+  }
+#move_button {
+    margin-left: 1165px;
+}
+body>footer{
+    background-color: dodgerblue;
+    color: white;
+}
+body>footer>h4 {
+    margin-bottom: 0;
+    text-align: center;
 }

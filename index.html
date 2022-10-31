@@ -11,7 +11,7 @@
     <header>
         <h1>CodeClan News</h1>
         <nav>
-            <ul>
+            <ul id="no_list">
                 <li><a href="/home">Home</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -43,7 +43,7 @@
         <section>
             <h2>Latest</h2>
             <h3>Breaking News</h3>
-            <ul>
+            <ul id="no_list" class="no_padding">
                 <li>
                     <img src="start_code_images/images/placeholder-image.png" alt="img">
                     <h4>Story Headline</h4>
@@ -61,7 +61,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class= "customIndent">
             <h2>Main Article Headline</h2>
             <h3>Author Name</h3>
             <article>
@@ -72,11 +72,14 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, aliquam? Harum quisquam debitis iste ratione esse aperiam minima labore blanditiis vel beatae illum, porro odit sequi quasi? Ea saepe incidunt molestiae suscipit iure aliquam soluta deserunt. Sapiente id ut aperiam obcaecati earum soluta, alias mollitia molestiae necessitatibus dignissimos est modi iste blanditiis dolor voluptates itaque temporibus eum voluptas maiores voluptatum laborum sint a. A, ratione. Quia sit nobis praesentium provident optio numquam quas, dolorum nesciunt totam dignissimos tempora vitae enim voluptatum amet culpa rerum quibusdam labore, vel est assumenda veniam ea mollitia delectus! Suscipit sunt cum porro iusto consequuntur doloremque!</p>
             </article>
             <form>
-                <label for="comments"> Comments:</label><br>
+                <label for="comments"> <h3>Comments:</h3></label><br>
                 <textarea name="comments" id="comments" cols="150" rows="10"></textarea><br>
-                <input type="submit">
+                <div id="move_button">
+                    <input type="submit">
+                </div>
+                
             </form>
-            <ul>
+            <ul id="no_list" class="no_padding">
                 <li>
                     <img src="start_code_images/images/placeholder-avatar.png" alt="img">
                     <h3>Username</h3>
